@@ -1,0 +1,166 @@
+.Navstyle {
+  background-color: #292929;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: 0 3px 6px 0 #555;
+  height: 40vh;
+  align-items: center;
+}
+.form-control {
+  z-index: 16;
+}
+
+.fontuser {
+  position: relative;
+}
+.mov {
+  z-index: -1;
+}
+
+.fontuser i {
+  position: absolute;
+  left: 15px;
+  top: 40px;
+  color: gray;
+}
+
+.cross-right {
+  position: absolute;
+  margin-left: 340px;
+  top: 40px;
+  color: gray;
+}
+.show {
+  display: block;
+  cursor: pointer;
+}
+.nshow {
+  display: none;
+}
+.in {
+  width: 100%;
+  padding: 12px 40px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 28px;
+}
+
+.navcnt {
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+.contA {
+  border: 3px solid black;
+  margin: 30px;
+  background-color: #080f0f;
+  opacity: 0.9;
+  margin-left: 64px;
+}
+
+.row {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  background-color: #4b4a4a;
+  opacity: 0.6;
+}
+
+.cardbg {
+  background-color: #292929;
+  opacity: 0.9;
+}
+
+.card-titStyle {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.link-sty {
+  text-decoration: none;
+}
+.suggestion {
+  cursor: pointer;
+  border: 1px;
+  background: white;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  width: 100%;
+
+  color: black;
+}
+.suggestion:hover {
+  background-color: whitesmoke;
+}
+
+@media only screen and (max-width: 375px) {
+  .Navstyle {
+    max-width: 375px;
+    position: fixed;
+  }
+
+  .contA {
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 393px) {
+  .Navstyle {
+    width: 393px;
+    position: fixed;
+  }
+
+  .contA {
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Navstyle {
+    height: 50vh;
+  }
+
+  .navcnt {
+    margin-top: 0px;
+  }
+  .in {
+    width: 220px;
+    margin-right: 20px;
+  }
+
+  .contA {
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: 820px) {
+  /* .contA {
+    margin-left: 110px;
+  } */
+}
+
+@media (min-width: 960px) {
+  #movies .col-md-3 .well {
+    height: 390px;
+  }
+
+  #movies .col-md-3 img {
+    height: 240px;
+  }
+  /* .contA {
+    margin-left: 90px;
+  } */
+}
